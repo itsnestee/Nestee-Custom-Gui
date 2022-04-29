@@ -38,7 +38,7 @@ laf.registerFunction("drawToggleButton", function(g, obj)
 					
 		}
 		
-		obj.over ? g.setFont("Roboto", 15.3) : g.setFont("Roboto", 15);
+	g.setFont("Actay Wide", obj.over ? 15.5 : 15.2);
 	g.drawText(obj.value ? "DE-ACTIFY" : "ACTIFY", obj.area );
 	
 });
